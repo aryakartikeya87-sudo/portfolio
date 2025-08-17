@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kartikeya Arya — Strategy & Ops</title>
+  <meta name="description" content="Kartikeya Arya — Strategy & Operations at JPMorgan Chase & Co. Portfolio with strategy decks." />
+  <!-- Fonts similar to Uber aesthetic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Tailwind CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <style>
+    html, body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    .container-uber { max-width: 1120px; }
+    .btn-black { background:#000; color:#fff; }
+    .btn-black:hover { background:#111; }
+    .btn-light { background:#fff; color:#000; border:1px solid #e5e7eb; }
+    .btn-light:hover { background:#f3f4f6; }
+    .card { background:#fff; border:1px solid #e5e7eb; }
+    .pill { border-radius:9999px; }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+  <!-- Nav (Uber-like) -->
+  <header class="sticky top-0 z-50 border-b bg-white/90 backdrop-filter backdrop-blur">
+    <div class="container-uber mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#top" class="text-2xl font-extrabold tracking-tight">Kartikeya</a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#decks" class="hover:underline">Strategy Decks</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+        <a href="Kartikeya_Arya_Updated_Resume.pdf" target="_blank" class="pill btn-black px-4 py-2 font-semibold">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="border-b bg-gray-50">
+    <div class="container-uber mx-auto px-4 sm:px-6 lg:px-8 py-12 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">Strategy & Operations</h1>
+        <p class="mt-4 text-lg text-gray-700 max-w-xl">
+          I’m Kartikeya Arya, 25, Bengaluru. Strategy & Ops at JPMorgan Chase & Co. I’m drawn to roles where
+          data, process design, and cross‑functional execution intersect — turning ambiguous problems into measurable outcomes.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="mailto:aryakartikeya87@gmail.com" class="pill btn-black px-5 py-2 font-semibold">Email</a>
+          <a href="https://www.linkedin.com/in/kartikeyaarya" target="_blank" rel="noopener" class="pill btn-light px-5 py-2 font-semibold">LinkedIn</a>
+          <a href="Kartikeya_Arya_Updated_Resume.pdf" target="_blank" rel="noopener" class="pill btn-light px-5 py-2 font-semibold">Resume (PDF)</a>
+        </div>
+      </div>
+      <div class="justify-self-center">
+        <div class="relative w-56 h-56 sm:w-64 sm:h-64">
+          <img src="assets/kartikeya_headshot.jpg" alt="Kartikeya Arya" class="w-full h-full object-cover rounded-full ring-4 ring-gray-200" />
+          <!-- subtle shadow ring -->
+          <div class="absolute inset-0 rounded-full ring-1 ring-black/5 pointer-events-none"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature tiles (Uber-style cards with 'Details' buttons) -->
+  <section class="container-uber mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card rounded-2xl p-5">
+        <h3 class="text-xl font-semibold">Process Automation</h3>
+        <p class="mt-2 text-gray-600">Reduce manual work and errors with dashboards, alerts, and simple tooling.</p>
+        <a class="pill btn-light inline-flex items-center mt-4 px-4 py-2 font-semibold" href="#about">Details</a>
+      </div>
+      <div class="card rounded-2xl p-5">
+        <h3 class="text-xl font-semibold">Analytics & Insights</h3>
+        <p class="mt-2 text-gray-600">Define the metrics that matter and ship reporting that drives action.</p>
+        <a class="pill btn-light inline-flex items-center mt-4 px-4 py-2 font-semibold" href="#about">Details</a>
+      </div>
+      <div class="card rounded-2xl p-5">
+        <h3 class="text-xl font-semibold">Product Thinking</h3>
+        <p class="mt-2 text-gray-600">Translate business needs into crisp specs and experiments that ship.</p>
+        <a class="pill btn-light inline-flex items-center mt-4 px-4 py-2 font-semibold" href="#about">Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strategy Decks -->
+  <section id="decks" class="border-t">
+    <div class="container-uber mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="flex items-center gap-3 mb-6">
+        <h2 class="text-3xl font-semibold">Strategy Decks</h2>
+        <div class="h-px flex-1 bg-gray-200"></div>
+      </div>
+      <div class="grid md:grid-cols-2 gap-6">
+        <article class="card rounded-2xl p-6 space-y-3">
+          <h3 class="text-lg font-bold">CBS Case Competition — Pandora (2021)</h3>
+          <p class="text-gray-700">‘Pandora Seasons’ rental + ‘Pandora Health’ bracelet for Gen Z; impact model, GTM, KPIs.</p>
+          <a href="decks/CBS_Case_Competition_Pandora.pdf" target="_blank" rel="noopener" class="pill btn-black px-4 py-2 inline-block font-semibold">View Deck</a>
+        </article>
+
+        <article class="card rounded-2xl p-6 space-y-3">
+          <h3 class="text-lg font-bold">Facebook RPM — Messaging UX</h3>
+          <p class="text-gray-700">“Self Message” + “Set Reminder”; user flows, staged rollout, success metrics.</p>
+          <a href="decks/Facebook_RPM_Deck.pdf" target="_blank" rel="noopener" class="pill btn-black px-4 py-2 inline-block font-semibold">View Deck</a>
+        </article>
+
+        <article class="card rounded-2xl p-6 space-y-3">
+          <h3 class="text-lg font-bold">Mainland China — Petrochina IoT Entry</h3>
+          <p class="text-gray-700">Industrial IoT entry; recommend acquiring SCADACore based on fit & synergies.</p>
+          <a href="decks/Mainland_China_IoT_Petrochina.pdf" target="_blank" rel="noopener" class="pill btn-black px-4 py-2 inline-block font-semibold">View Deck</a>
+        </article>
+
+        <article class="card rounded-2xl p-6 space-y-3">
+          <h3 class="text-lg font-bold">ASCM Final — Moo Homestead Supply Chain</h3>
+          <p class="text-gray-700">Fix forecast errors, improve fill‑rate/turnover; digital freight tracker & EV fleet.</p>
+          <a href="decks/Hyderabad_Region_ASCM_Final_Moo_Homestead.pdf" target="_blank" rel="noopener" class="pill btn-black px-4 py-2 inline-block font-semibold">View Deck</a>
+        </article>
+      </div>
+      <p class="mt-4 text-xs text-gray-500">Host PDFs in a <code>decks/</code> folder next to this file.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="border-t">
+    <div class="container-uber mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="flex items-center gap-3 mb-4">
+        <h2 class="text-2xl font-semibold">Contact</h2>
+        <div class="h-px flex-1 bg-gray-200"></div>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a href="mailto:aryakartikeya87@gmail.com" class="pill btn-black px-5 py-2 font-semibold">Email</a>
+        <a href="https://www.linkedin.com/in/kartikeyaarya" target="_blank" rel="noopener" class="pill btn-light px-5 py-2 font-semibold">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t">
+    <div class="container-uber mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-gray-500">
+      © <span id="year"></span> Kartikeya Arya. All rights reserved.
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
